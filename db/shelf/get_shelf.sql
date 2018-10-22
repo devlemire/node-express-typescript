@@ -1,2 +1,3 @@
 SELECT *
-FROM shelf;
+FROM books
+ORDER BY created_at ASC;
