@@ -7,6 +7,8 @@ import app_router from './routes'
 
 // Express App
 const app = express()
+// Read JSON off of incoming requests
+app.use(express.json())
 
 // Log incoming requests with the morgan package
 app.use(morgan('dev'))
